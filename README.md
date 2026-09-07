@@ -1,5 +1,7 @@
 # Mugisha Espoir — Portfolio
 
+🌐 **Live site:** [https://my-profile-espoir.vercel.app/](https://my-profile-espoir.vercel.app/)
+
 A modern, responsive personal portfolio built with **React + Vite + Tailwind CSS**.
 
 ## Project structure
