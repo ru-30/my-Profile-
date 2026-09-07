@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+/* ---------------------------------------------------------------
+   Design tokens
+   A technology-oriented palette: deep navy grounds, one electric
+   cyan accent used sparingly, warm off-white for the light
+   sections. Two type families: Space Grotesk for display/headline
+   moments, IBM Plex Sans for reading text. IBM Plex Mono is
+   reserved for genuinely code-like content (tech tags, the code
+   panel) rather than used as a generic "label" font.
+------------------------------------------------------------------*/
+@theme {
+  --font-display: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+
+  --color-ink: #0b1220; /* near-black navy, primary dark ground + body text on light */
+  --color-ink-soft: #14213a;
+  --color-navy-900: #0b1220;
+  --color-navy-800: #101a2e;
+  --color-navy-700: #16233d;
+  --color-navy-600: #1d2e4d;
+  --color-cyan: #22d3ee;
+  --color-cyan-dim: #67c9d8;
+  --color-azure: #3b82f6;
+  --color-paper: #f6f8fb; /* light section background, not pure white */
+  --color-paper-dim: #eef2f7;
+  --color-slate: #55627a; /* muted body text on light */
+  --color-mist: #c7d2e2; /* muted body text on dark */
+
+  --shadow-card: 0 1px 0 0 rgba(11, 18, 32, 0.06);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--color-cyan);
+  color: var(--color-navy-900);
+}
+
+/* Visible keyboard focus, kept consistent across interactive elements */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--color-cyan);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* Scroll-reveal primitive: one small, purposeful transition,
+   respecting reduced-motion preferences. */
+.reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+/* Thin scrollbar for the code panel */
+.code-scroll::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.code-scroll::-webkit-scrollbar-thumb {
+  background: var(--color-navy-600);
+  border-radius: 999px;
+}
