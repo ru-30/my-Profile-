@@ -9,7 +9,7 @@
 
 ## Professional Summary
 
-Final-year Information Management / Information Technology student at the Adventist University of Central Africa (AUCA), with hands-on experience in full-stack web development, database engineering, and applied artificial intelligence. Proven ability to design and deliver end-to-end software solutions — from secure banking systems and relational database architectures to AI-powered document classification pipelines. Adept at translating complex technical requirements into clean, maintainable code using modern frameworks and tools. Actively seeking a junior software engineering or web development role where I can contribute immediately and grow within a collaborative team.
+Final-year Information Management / Information Technology student at the Adventist University of Central Africa (AUCA), with hands-on experience in full-stack web development, database engineering, and applied artificial intelligence. Proven ability to design and deliver end-to-end software solutions from secure banking systems and relational database architectures to AI-powered document classification pipelines. Adept at translating complex technical requirements into clean, maintainable code using modern frameworks and tools. Actively seeking a junior software engineering or web development role where I can contribute immediately and grow within a collaborative team.
 
 ---
 
@@ -30,7 +30,7 @@ Final-year Information Management / Information Technology student at the Advent
 
 **Bachelor's Degree in Information Management / Information Technology**
 Adventist University of Central Africa (AUCA) — Kigali, Rwanda
-7th Semester (Final Year) | Expected Graduation: 2025
+7th Semester (Final Year) | Expected Graduation: 2027
 
 **Relevant Coursework:** Software Engineering, Database Systems, Web Development, Artificial Intelligence, Big Data & Hadoop, Computer Networks, Data Structures & Algorithms, System Analysis & Design
 
@@ -85,14 +85,13 @@ Adventist University of Central Africa (AUCA) — Kigali, Rwanda
 ## Certifications & Training
 
 - **Certificate in Frontend Development** — Solvit Africa
-- **[Additional Certification]** — [Issuing Organization] | [Year]
 
 ---
 
 ## Languages
 
 - **English** — Professional Working Proficiency
-- **French** — [Proficiency Level]
+- **French** — Good 
 - **Kinyarwanda** — Native
 
 ---

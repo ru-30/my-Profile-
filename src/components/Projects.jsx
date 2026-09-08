@@ -58,30 +58,7 @@ export default function Projects() {
                       ))}
                     </ul>
 
-                    <div className="mt-6 flex flex-wrap gap-3 text-sm font-medium">
-                      <a
-                        href={project.github}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="inline-flex items-center gap-1.5 rounded-md border border-ink/15 px-3 py-2 text-ink hover:border-azure hover:text-azure transition-colors"
-                      >
-                        <GithubIcon size={16} /> GitHub
-                      </a>
-                      <a
-                        href={project.demo}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="inline-flex items-center gap-1.5 rounded-md border border-ink/15 px-3 py-2 text-ink hover:border-azure hover:text-azure transition-colors"
-                      >
-                        <ExternalLink size={16} /> Live Demo
-                      </a>
-                      <a
-                        href={`#${project.id}`}
-                        className="inline-flex items-center gap-1.5 rounded-md bg-navy-900 px-3 py-2 text-white hover:bg-navy-800 transition-colors"
-                      >
-                        View Project
-                      </a>
-                    </div>
+
                   </div>
                 </article>
               </Reveal>
