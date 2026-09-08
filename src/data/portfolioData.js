@@ -137,8 +137,8 @@ export const services = [
 
 export const education = [
   {
-    degree: "Bachelor's Degree — Software Engineering / Information Technology",
-    institution: "American University of Central Africa (AUCA)",
+    degree: "Bachelor's Degree in Information Management / Information Technology",
+    institution: "Adventist University of Central Africa (AUCA)",
     status: "Final Year",
     period: "Expected graduation soon",
   },

@@ -51,6 +51,14 @@ export default function Hero() {
             >
               <Mail size={17} /> Contact Me
             </a>
+            <a
+              href="/cv.html"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-2 rounded-md border border-white/20 px-6 py-3 font-semibold text-white hover:border-cyan hover:text-cyan transition-colors"
+            >
+              View CV
+            </a>
           </div>
         </Reveal>
 
