@@ -76,19 +76,19 @@ export const projects = [
     demo: "https://your-demo-link.example.com/document-ai", // TODO: replace
   },
   {
-    id: "securebank",
-    title: "SecureBank",
+    id: "rwooga",
+    title: "Rwooga 3D Studio",
     description:
-      "A web-based banking management system demonstrating secure account handling, transactions, and user management.",
-    tech: ["HTML", "CSS", "PHP", "MySQL"],
-    github: "https://github.com/yourusername/securebank", // TODO: replace
-    demo: "https://your-demo-link.example.com/securebank", // TODO: replace
+      "A premium web application for a 3D design and manufacturing studio, featuring interactive portfolio showcases, user authentication, an admin dashboard, and an e-commerce shop for 3D printed products.",
+    tech: ["React 19", "TypeScript", "Tailwind CSS", "Framer Motion", "Vite", "REST APIs"],
+    github: "https://github.com/ru-30",
+    demo: "https://your-demo-link.example.com/rwooga",
   },
   {
     id: "novabank",
     title: "NovaBank Database System",
     description:
-      "A database-driven banking system managing users, accounts, and transactions — built to demonstrate solid database design and SQL development.",
+      "A database-driven banking system managing users, accounts, and transactions — built as a class activity in PL/SQL to demonstrate solid database design and SQL development.",
     tech: ["Oracle Database", "SQL", "PL/SQL"],
     github: "https://github.com/yourusername/novabank-database", // TODO: replace
     demo: "https://your-demo-link.example.com/novabank", // TODO: replace

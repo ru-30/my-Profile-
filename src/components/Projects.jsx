@@ -1,11 +1,11 @@
-import { ExternalLink, FolderGit2, Brain, Landmark, Database, LayoutDashboard } from "lucide-react";
+import { FolderGit2, Brain, Landmark, Database, LayoutDashboard, Boxes } from "lucide-react";
 import { GithubIcon } from "./BrandIcons";
 import { projects } from "../data/portfolioData";
 import Reveal from "./Reveal";
 
 const icons = {
   "doc-ai": Brain,
-  securebank: Landmark,
+  rwooga: Boxes,
   novabank: Database,
   "react-dashboard": LayoutDashboard,
 };
@@ -46,6 +46,11 @@ export default function Projects() {
                   <div className="flex flex-1 flex-col p-6">
                     <h3 className="font-display font-semibold text-lg text-ink">{project.title}</h3>
                     <p className="mt-2 text-sm text-slate leading-relaxed flex-1">{project.description}</p>
+                    {project.id === "doc-ai" && (
+                      <span className="mt-3 inline-block self-start rounded bg-black px-2.5 py-1 text-xs font-semibold text-white">
+                        Final Year Project — In Progress
+                      </span>
+                    )}
 
                     <ul className="mt-4 flex flex-wrap gap-2">
                       {project.tech.map((t) => (
